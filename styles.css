@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+body{
+	width:1100px;
+}
+.imageContainer {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .imageContainer img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    .first-column, .last-column {
+      width: 200px;
+    }
+    .middle-column {
+      width: 600px;
+    }
